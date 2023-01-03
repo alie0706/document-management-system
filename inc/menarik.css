@@ -1,0 +1,591 @@
+/* CSS Document */
+body {
+	font-family: Tahoma, Helvetica, verdana;
+	font-size: 11px;
+	margin: 0px;
+	color:#5A311F;
+	background-image:url(images/bg_color.gif);
+	background-repeat:no-repeat;
+	
+	padding: 0px;
+}
+
+#table_garis_kotak { 
+	padding: 0px;
+	height:auto;
+	margin: auto;  
+	width: 600px;
+	border:#EABA15 solid 1px; 
+}
+#table_garis_kotak td { 
+	padding: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+}
+.background {
+	background-repeat:no-repeat;
+}
+td .menukiri {
+	height: 26px;
+	background-image: url(images/bg_menukiri_a.gif);
+}
+td .menukiri a {
+	height: 21px;
+	font-weight:bold;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 11px;
+	color:#474747;
+	display: block;
+	text-decoration: none;
+}
+td .menukiri a:hover {
+	color:#4D3210;
+	background-image: url(images/bg_menukiri_ahover.gif);
+}
+form .textbox input {
+	font-family: Tahoma, Helvetica, sans-serif; 
+	font-size: 12px;
+	color:#3F1F03;
+	height: 16px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	background-color:#FFFFFF;
+	border: #000080 solid 1px;
+}
+form .textbox input.tombol{
+font-weight: bold;
+	height: 21px;
+	width:87px;
+	
+	border: #663300 outset 1px;
+	background-color:#FFCC00;
+}
+form .textbox select {
+	font-family: Tahoma, Helvetica, sans-serif; 
+	font-size: 12px;
+	color:#3F1F03;
+	height: 20px;
+	padding-left: 2px;
+	background-color:#FFFFFF;
+	border:#000080 solid 1px;
+}
+form .login input.button {
+	width: 50px; 
+	height: 21px;
+	padding: 0px;
+}
+form .table_form input.buttonbrows {
+	font-weight: bold;
+	height: 21px;
+	border: #663300 outset 1px;
+	background-color:#FFCC00;
+}
+.katalog
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	padding-left: 2px;
+
+	color:#66FFCC;
+}
+.rol
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	padding-left: 2px;
+
+	color:#66FFCC;
+}
+
+.katalogi {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	
+	
+	border-bottom: #CCCCCC 0px solid;
+	padding-left: 10px;
+	color:#000080;
+}
+.katalogii {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	
+	
+	
+	border-bottom: #CCCCCC 0px solid;
+	
+	color:#000080;
+}
+.katalogiii {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height:24px;
+	
+	
+	
+	border-bottom: #CCCCCC 0px solid;
+	padding-left: 5px;
+	color:#030;
+}
+.tbl{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-left:3px;	
+	border-bottom: #CCCCCC 0px solid;
+	
+	color:#000080;
+}
+.kataloge {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	
+	padding-left: 20px;
+	color:#CC6633;
+	}
+.replay {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	border:#FF0;
+	padding-left: 260px;
+	padding-right: 10px;
+	color:#060;
+}
+.tanggal{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+	
+		
+	color:#FAFF35;
+}
+.tanggal1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	height:0px;
+	border-bottom:0px;
+	border-bottom-width:0px;
+	border-left:0px;
+	border-right:0px;
+	color:#333333;
+}
+.katalogu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	
+	padding-left: 10px;
+	color:#333333;
+}
+.txt-title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11,5px;
+	font-variant:small-caps;
+	
+	
+	padding-left: 10px;
+	color:#390;
+}
+.txt-judul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	padding-left:5px;
+	color: #F90;
+}
+.katalog a{
+color:#66FFFF;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 2px 3px 2px 4px;
+	border-right: 1px solid #DFCBAA;
+	text-decoration: none;
+}
+.katalog a:hover{
+color:#FFFF33;
+	
+	text-decoration: none;
+}
+.katalog img{
+	padding: 5px 5px 5px 5px;
+	border:#CCCCCC solid 1px;
+}
+.rol a{
+color:#000080;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 2px 3px 2px 4px;
+	border-right: 1px solid #DFCBAA;
+	text-decoration: none;
+}
+.rol a:hover{
+color:#FF6600;
+	
+	text-decoration: none;
+}
+.rol img{
+	padding: 5px 5px 5px 5px;
+	border:#CCCCCC solid 1px;
+}
+.detail_nama a{
+color:#000080;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 2px 3px 2px 4px;
+	
+	text-decoration: none;
+}
+.detail_nama a:hover{
+color:#FF6600;
+	
+	text-decoration: none;
+}
+.detail_nama img{
+	padding: 5px 5px 5px 5px;
+	border:#CCCCCC solid 1px;
+}
+.pencet{
+font-weight: bold;
+	height: 21px;
+	border: #663300 outset 1px;
+	background-color:#FFCC00;
+	padding-bottom: 3px;
+	background-position:bottom 2px;
+	margin-bottom:0px;
+	margin-top:6px;
+}
+form .textbox1 input {
+	font-family: Tahoma, Helvetica, sans-serif; 
+	font-size: 34spx;
+	color:#3F1F03;
+	height: 19px;
+	padding-left: 3px;
+	background-color:#FFFFFF;
+	border: #996633 solid 1px;
+	margin-left:4px;
+}
+form .textbox1 input.tombol{
+font-weight: bold;
+	height: 21px;
+	border: #663300 outset 1px;
+	background-color:#FFFFFF;
+	margin-left:4px;
+}
+form .textbox1 select {
+	font-family: Tahoma, Helvetica, sans-serif; 
+	font-size: 12px;
+	color:#3F1F03;
+	height: 19px;
+	padding-left: 2px;
+	background-color:#FFFFFF;
+	margin-left:4px;
+}
+
+.rol1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	
+
+	color:#66FFCC;
+}
+.rol1 a{
+color:#000080;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 2px 3px 2px 4px;	
+	text-decoration: none;
+}
+.rol1 a:hover{
+color:#FF6600;
+	
+	text-decoration: none;
+}
+.rol1 img{
+	padding: 5px 5px 5px 5px;
+	border:#CCCCCC solid 1px;
+}
+
+.cetak {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;	
+	border-bottom: #CCCCCC 0px solid;
+	color:#000000;
+	height:20px
+}.cetak2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;	
+	border-bottom: #CCCCCC 0px solid;
+	color:#000000;
+}
+.hitam {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+	padding-left:20px;
+	
+	
+	
+	border-bottom: #CCCCCC 0px solid;
+	color:#66FFFF
+}
+.ttl {
+	border-bottom : 0.1px outset #F1F6F8;
+	font-size:24px;
+	padding: 4px;
+	background-image:url(images/bargreen.gif);
+	color:#030;
+	font-weight:bold;
+}
+.tts {
+	border-bottom : 0.1px outset #F1F6F8;
+	font-size:12px;
+	padding: 4px;
+	background-image:url(images/bargreen.gif);
+	color:#030;
+	font-weight:bold;
+}
+.ttu {
+
+	border-bottom : 0.1px outset #F1F6F8;
+	padding: 4px;
+
+	background-image:url(images/separator.gif);
+	background-repeat:repeat-x;
+
+	color:#FF0;
+	font-weight:bold;
+}
+
+.box {
+  font-size: 1em;
+  border: 0.04px solid #F2FFFF;
+  border-bottom-style: inset;
+}
+.isi-berita {
+	font-family:Tahoma;
+	font-size:11px;
+	padding-left:4px;
+	text-align:justify;
+	line-height: 18px;
+}
+.judul-berita {
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#265180;
+	padding:8px;
+	padding-left:24px;
+}
+.link-berita
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+	padding-bottom:8px;
+
+	color:#0C0;
+}
+.link-berita a{
+color:#0C0;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 2px 3px 2px 4px;
+	text-decoration: none;
+}
+.link-berita a:hover{
+color:#FF6600;
+	
+	text-decoration: none;
+}
+.link-berita img{
+	padding: 5px 5px 5px 5px;
+	border:#CCCCCC solid 1px;
+}
+.isi_kecil{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding-left:4px;
+	color:#FF6600;
+}
+.gambar
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-image:url(images/backgallery.png);
+	background-repeat: no-repeat;
+	height: 105px;
+	width: 140px;
+	padding: 8px;
+	
+
+	color:#66FFCC;
+}
+.gambar a{
+color:#090;
+	font-weight: bold;
+	text-decoration: none;
+}
+.gambar a:hover{
+color:#FF6600;
+	
+	text-decoration: none;
+}
+.selanjutnya
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	
+
+	color:#F00;
+}
+.selanjutnya a{
+color:#F00;
+	font-weight: bold;
+	text-decoration: none;
+}
+.selanjutnya a:hover{
+color:#00F;
+	
+	text-decoration: none;
+}
+.rumah
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	padding-right:15px;
+
+	color:#900;
+}
+.rumah a{
+color:#30F;
+	font-weight: bold;
+	text-decoration: none;
+		padding-right:18px;
+
+}
+.rumah a:hover{
+color:#C30;
+	
+	text-decoration: none;
+}
+.judul_head {
+	font-family:Tahoma;
+	font-size:13px;
+	font-weight:bold;
+	background-color:#95fc69;
+  color:#333333;
+  padding-left:4px;
+}
+.judul_head2 {
+	font-family:Tahoma;
+	font-size:15px;
+	font-weight:bold;
+	
+  color:#333333;
+  padding-left:4px;
+}
+.isi-profil {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-left:4px;
+	text-align:justify;
+	line-height: 18px;
+}
+#backgallery {
+	background-image:url(images/backgallery2.png);
+	background-repeat: no-repeat;
+	height: 160px;
+	width: 140px;
+	padding: 10px;
+}
+.judul-hijau {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	padding-left:5px;
+	color:#090;
+}
+.isi-hijau{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding-left:4px;
+	color:#060;
+}
+.judul-kanan {
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#300;
+	padding-left:40px;
+}
+.berita-kanan
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10,5px;
+	padding-bottom:6px;
+	
+	
+
+	color:#66FFCC;
+}
+.berita-kanan a{
+color:#060;
+	font-weight: bold;
+	text-decoration: none;
+}
+.berita-kanan a:hover{
+color:#FF6600;
+	
+	text-decoration: none;
+}
+.judul_head3 {
+	font-family:Tahoma;
+	font-size:13px;
+	font-weight:bold;
+	background-color:#7feb72;	
+	border-bottom:#FC0;
+	border-bottom-style:solid;
+	
+  color:#300;
+  padding-left:4px;
+}
+.txt-counter {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight: bold;
+	padding-left:5px;
+	color: #1e6f03;
+}
+.logo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10,5px;
+	padding-bottom:6px;
+	
+	
+
+	
+}
+.logo a{
+color:#FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+.logo a:hover{
+color:#FF6600;
+	
+	text-decoration: none;
+}

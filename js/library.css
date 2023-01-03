@@ -1,0 +1,318 @@
+/* CSS Library 2010
+	Author by Acit
+	www.eurekapage.com
+ */
+ .headPage{
+ 	padding:20px 0 15px 0;
+	display:table;
+	width:100%;
+ }
+ .dashboardIcon{
+ 	display:table;
+ 	width:250px;
+	float:left;
+ }
+ .statistik{
+ 	background:url(../images/lib/shd_left.png) left no-repeat;
+	float:left;
+	display:block;
+	padding:0 0 0 20px;
+	min-height:500px;
+	overflow:hidden;
+ }
+/*------------------------------General Attribute-----------------------------*/
+.noMargin{
+	margin:0;
+}
+.noPadding{
+	padding:0;
+}
+.noBorder{
+	border:none;
+}
+.clear{
+	clear:both;
+}
+.hidden{
+	display:none;
+	visibility:hidden;
+}
+.defaults{
+	list-style:none;
+	letter-spacing:normal;
+	line-height:normal;
+	clear:both;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	text-shadow:none;
+}
+/*------------------------------HTML element-----------------------------*/
+a{
+	outline:none;
+}
+img{
+	border:none;
+}
+p{
+	line-height:18px;
+}
+/*------------------------------Icon 24 Style-----------------------------*/
+a.editPage,a.deletePage,a.cetak,a.reportPage,a.addPage,a.print,a.excel,a.pdf,a.add {
+	display:block;
+	background:url(../images/lib/edit_page.png) no-repeat;
+	height:20px; width:20px; display:block;
+	float:left;
+	margin:0 3px;
+	text-decoration:none;
+}
+a.deletePage {
+	background:url(../images/lib/delete_page.png) no-repeat;
+}
+a.cetak {
+	background:url(../images/lib/chart_icon_hover.png) no-repeat;
+}
+a.reportPage {
+	background:url(../images/lib/chart_icon.png) no-repeat;
+}
+a.addPage {
+	background:url(../images/lib/add_page.png) no-repeat;
+}
+a.print {
+	background:url(../images/lib/printer.png) no-repeat;
+	float:right;
+}
+a.excel {
+	background:url(../images/lib/excel.png) no-repeat;
+	float:right;
+}
+a.pdf {
+	background:url(../images/lib/pdf.png) no-repeat;
+	float:right;
+}
+a.add {
+	background:url(../images/lib/add.png) no-repeat;
+	float:right;
+}
+a.database {
+	background:url(../images/lib/database.png) no-repeat;
+	float:right;
+	display:inline;
+	height:24px;
+	padding:5px 15px 0 30px;
+	font-weight:bold;
+}
+a.editPage:hover{
+	background:url(../images/lib/edit_page_hover.png) no-repeat 0 -3px;
+}
+a.deletePage:hover {
+	background:url(../images/lib/delete_page_hover.png) no-repeat 0 -3px;
+}
+a.reportPage:hover{
+		background:url(../images/lib/chart_icon_hover.png) no-repeat 0 -3px;
+}
+a.addPage:hover {
+	background:url(../images/lib/add_page_hover.png) no-repeat 0 -3px;
+}
+/*------------------------------Icon 48 Style-----------------------------*/
+a.book,a.chart,a.mail_send,a.users,a.report,a.lock {
+	display:block;
+	background:url(../images/lib/book.png) no-repeat;
+	height:48px; width:48px; display:block;
+	float:left;
+	margin:30px;
+	text-decoration:none;
+}
+a.chart {
+	background:url(../images/lib/chart.png) no-repeat;
+}
+a.mail_send {
+	background:url(../images/lib/mail_send.png) no-repeat;
+}
+a.users {
+	background:url(../images/lib/users.png) no-repeat;
+}
+a.report{
+	background:url(../images/lib/report.png) no-repeat;
+}
+a.lock{
+	background:url(../images/lib/lock.png) no-repeat;
+}
+/*------------------------------Table Style-----------------------------*/
+table.list td,table.addlist td {	
+	border-bottom: solid 1px #eaeaea;
+	padding:8px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+table.list td a,table.addlist td a{
+	color:#3399CC;
+}
+table.list tr:hover {
+	background-color:#e5e5e5;
+	text-shadow:none;
+}
+table.list tr:hover a {
+		color: #FF0;
+	}
+table.list,table.addlist, table.zebra {
+	border: solid 1px #eaeaea;
+	border-bottom:none;
+	width:100%;
+	color:#333;
+}
+tr.ganjil, tr.oddRow {
+	background:#f9f9f9;
+}
+tr.genap, tr.evenRow {
+	background:#f3f3f3;
+}
+table.zebra {
+	border-right:none;
+}
+table.zebra td {
+	border-right:solid 1px #eaeaea;
+}
+tr.head, td.head,tr.head:hover,td.head:hover {
+	height:27px;
+	background:url(../images/lib/table.gif) #e5e5e5 repeat-x;
+	text-shadow:1px 1px 1px #cccccc;
+	font-weight:bold;
+}
+/*-----------------------css hover effect------------------------*/
+#tt {position:absolute; display:block; background:url(../images/lib/tt_left.gif) top left no-repeat; text-align:left;}
+#tttop {display:block; height:5px; margin-left:5px; background:url(../images/lib/tt_top.gif) top right no-repeat; overflow:hidden}
+#ttcont {display:block; padding:2px 12px 3px 7px; margin-left:5px; background:#666; color:#FFF}
+#ttbot {display:block; height:5px; margin-left:5px; background:url(../images/lib/tt_bottom.gif) top right no-repeat; overflow:hidden}
+/* --------------------Pagination style	------------------------ */
+.paging{
+	display:block;
+	padding:15px 0;
+}
+ul{border:0; margin:0; padding:0;}
+
+#pagination li{
+	border:0; margin:0; padding:0;
+	font-size:11px;
+	list-style:none;
+}
+#pagination a{
+	border:solid 1px #DEDEDE;
+	margin-right:2px;
+}
+#pagination .previous-off,
+#pagination .next-off {
+	border:solid 1px #DEDEDE;
+	color:#666666;
+	display:block;
+	float:left;
+	font-weight:bold;
+	margin-right:2px;
+	padding:3px 4px;
+}
+#pagination .next a,
+#pagination .previous a {
+ font-weight:bold;
+}	
+#pagination .active{
+	background:#0099CC;
+	color:#FFFFFF;
+	font-weight:bold;
+	display:block;
+	float:left;
+	padding:4px 6px;
+	margin-right:2px;
+}
+#pagination a:link, 
+#pagination a:visited {
+	color:#666666;
+	display:block;
+	float:left;
+	padding:3px 6px;
+	text-decoration:none;
+}
+#pagination a:hover{
+	border:solid 1px #0099CC;
+}
+
+/*-------------------------------form style----------------------------*/
+.loginBox{
+	width:315px;
+	height:210px;
+	padding:15px;
+	margin:0 auto;
+	background:#fff url(../images/shd.png) top repeat-x;
+	-moz-border-radius:0 0 15px 15px;
+	-webkit-border-radius:0 0 15px 15px;
+	border-radiud:0 0 15px 15px;
+	-moz-box-shadow:0px 1px 5px #333;
+	-webkit-box-shadow:0px 1px 5px #333;
+	box-shadow:0px 1px 5px #333;
+	behavior: url(ie-css3.htc);
+}
+.error{
+	color:#CC0000;
+	font-size:11px;
+	display:block;
+	padding:10px 0; 
+}
+form{
+	margin:0;
+	padding:0;
+}
+.row{
+	padding:10px 0;
+	display:table;
+	clear:both;
+	border-bottom:dotted 1px #CCC;
+	width:100%;
+}
+.row label{
+	display:inline-block;
+	width:130px;
+}
+input[type=radio]{
+	display:inline-block;
+}
+input[type=text],input[type=password],select{
+	border:solid 1px #CCC;
+	padding:3px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	behavior: url(ie-css3.htc);
+	width:200px;
+}
+select{
+	width:210px;
+}
+input[type=submit].submitButton, a.submitButton,input[type=button].submitButton{
+	background:url(../images/lib/bg_submit.gif) repeat-x;
+	height:30px; padding:5px 15px;
+	text-transform:uppercase;
+	text-shadow:1px 1px 1px #000000;
+	color:#FFF;
+	text-align:center;
+	border:none;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	behavior: url(ie-css3.htc);
+	cursor:pointer;
+	text-decoration:none;
+}
+input[type=submit]:hover,a.submitButton:hover,input[type=button]:hover{
+	background:url(../images/lib/bg_submit_hover.gif) repeat-x;
+}
+input[type=text]:focus, input[type=password]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus {
+	border: solid 1px #0099cc;
+}
+textarea{
+	background-color:#efefef;
+	border:solid 1px #CCC;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	behavior: url(ie-css3.htc);
+	padding:5px;
+}
